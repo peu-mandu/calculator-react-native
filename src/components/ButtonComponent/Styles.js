@@ -12,4 +12,14 @@ export default Styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: '#888',
   },
+  actionButton: {
+    color: '#fff',
+    backgroundColor: '#fa8200',
+  },
+  buttonDouble: {
+    width: (Dimensions.get('window').width / 4) * 2,
+  },
+  buttonTriple: {
+    width: (Dimensions.get('window').width / 4) * 3,
+  },
 });
